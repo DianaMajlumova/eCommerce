@@ -1,0 +1,29 @@
+nav {
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  box-shadow: gray 0px 1px 10px;
+  .navigation {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    .nav_bar {width: 20%;
+      ul {
+        display: flex;
+        justify-content: space-around;
+        li {
+          color: black;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
